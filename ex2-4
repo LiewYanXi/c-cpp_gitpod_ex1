@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float     r;
+    
+    printf("r=");
+    scanf("%f",&r);
+    printf("\n a=%f",r * r * 3.141592);
+    printf("\n C=%f",r * 6.283184);
+    
+    return 0;
+}
