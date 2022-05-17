@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main(){
+	int r; 
+	
+	printf("please input r:\n");
+	scanf("%d",&r);
+	
+	if( r < 0 ){
+	    printf("wrong\n");
+	}else{
+	    printf("A=%d\n",r*r*22/7);
+	    printf("C=%d\n",r*44/7);
+	}
+	
+	return 0;
+}
